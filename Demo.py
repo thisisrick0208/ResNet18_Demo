@@ -1,8 +1,7 @@
 import os
 import tensorflow as tf
 from ResNet import resnet18
-from tensorflow.keras import datasets,layers,optimizers,metrics
-from tensorflow.keras.models import Sequential
+from tensorflow.keras import datasets,layers,optimizers,metrics,Sequential
 
 
 os.environ["TF_CPP_MIN_LOG_LEVEL"]='2'
